@@ -1,7 +1,13 @@
-function App() {
-  const [count, setCount] = useState(0);
+import styled from "styled-components";
 
-  return <></>;
+function App() {
+  return <div></div>;
 }
 
 export default App;
+
+const AppCss = styled.div`
+  width: 100%;
+  height: 100%;
+  background-color: white;
+`;
